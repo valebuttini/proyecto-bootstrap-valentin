@@ -1,0 +1,16 @@
+/* style del nav */
+.navbar-nav a{
+    color:  white;
+    font-size: 20px;
+}
+/* style del main carrusel */
+.carousel-inner{
+    margin-top: 50px;
+}
+.btn-dark{
+    margin-top: -150px;
+    margin-left: 250px;
+    padding: 20px;
+    font-size: 25px;
+}
+/* style de la segunda seccion del main inicio */
