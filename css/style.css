@@ -7,12 +7,6 @@
 .carousel-inner{
     margin-top: 50px;
 }
-.btn-dark{
-    margin-top: -150px;
-    margin-left: 250px;
-    padding: 20px;
-    font-size: 25px;
-}
 /* style de la segunda seccion del main inicio */
 .float-start{
     margin-top: 40px;
@@ -26,8 +20,4 @@
 /* footerr */
 .list-group li{
     margin-left: 80px;
-}
-.card-subtitle{
-    margin-left: 600px;
-    margin-top: 20px;
 }

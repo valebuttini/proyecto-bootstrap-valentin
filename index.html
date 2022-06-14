@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <title>Disney bootstrap</title>
     <!-- boostrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
@@ -47,32 +47,32 @@
           </nav>
         </nav>
     <!-- main del inicio, carrusel de imagenes mas botones-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="./fotos-boostrap/mainIndex.jpg" class="d-block w-100" alt="Lightyear">
-          <div class="container">
-            <button type="button" class="btn btn-dark">Comprar tickets</button>
-            <button type="button" class="btn btn-dark">Ver trailer</button>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Proximamente</h5>
+            <button type="button" class="btn btn-dark">Ver mas</button>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./fotos-boostrap/Marvel.jpg" class="d-block w-100" alt="Marvel">
-          <div class="container">
-            <button type="button" class="btn btn-dark">Comprar tickets</button>
-            <button type="button" class="btn btn-dark">Ver trailer</button>
-        </div>
+          <img src="./fotos-boostrap/Marvel.jpg" class="d-block w-100" alt="marvel-eternals">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Proximamente</h5>
+            <button type="button" class="btn btn-dark">Ver mas</button>
+          </div>
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
@@ -84,26 +84,17 @@
     <img src="./fotos-boostrap/luca.jpeg" class="rounded float-start" alt="luca-pelicula" width="250" height="350">
     <img src="./fotos-boostrap/loki.jpeg" class="rounded float-start" alt="loki-pelicula" width="250" height="350">
     <img src="./fotos-boostrap/raya.jpeg" class="rounded float-start" alt="raya-pelicula" width="250" height="350">
-    <div class="container">
-      <div class="row">
-        <p class="col-2 fs-5">Raya y el ultimo dragon</p>
-        <p class="col-4 fs-4">Loki</p>
-        <p class="col-3 fs-4">Luca</p>
-        <p class="col-3 fs-4">Cruella</p>
-      </div>
-    </div>
   </div>
   <!-- Footer""""""""""""""""""""""""""""""""""""""""""""""" -->
   <div class="card" style="width: 100%;">
     <div class="card-body">
-      <ul class="list-group list-group-horizontal">
+      <ul class="list-group list-group-horizontal-xxl">
         <li class="list-group-item">Politica de privacidad</li>
         <li class="list-group-item">Terminos de uso</li>
         <li class="list-group-item">Contactos</li>
         <li class="list-group-item">Buscar Trabajo</li>
         <li class="list-group-item">Condiciones</li>
       </ul>
-      <h6 class="card-subtitle mb-2 text-muted fs-4">Disney</h6>
       <p class="text-center">Disney . Pixar Produccion y paginas web, Valentin entertainment</p>
       <a href="#" class="card-link">Instagram</a>
       <a href="#" class="card-link">Facebook</a>
