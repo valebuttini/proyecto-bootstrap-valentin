@@ -14,3 +14,20 @@
     font-size: 25px;
 }
 /* style de la segunda seccion del main inicio */
+.float-start{
+    margin-top: 40px;
+    margin-left: 70px;
+}
+.row{
+    flex-direction: row-reverse;
+    padding: 15px;
+    margin-left: 60px;
+}
+/* footerr */
+.list-group li{
+    margin-left: 80px;
+}
+.card-subtitle{
+    margin-left: 600px;
+    margin-top: 20px;
+}
