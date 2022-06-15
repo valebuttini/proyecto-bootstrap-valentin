@@ -21,3 +21,10 @@
 .list-group li{
     margin-left: 80px;
 }
+/* Main de shop */
+.rounded{
+    transition: all (.8);
+}
+.rounded:hover{
+    transform: scale(1.01);
+}
